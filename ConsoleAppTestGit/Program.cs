@@ -14,7 +14,16 @@ namespace ConsoleAppTestGit
             int b = 2;
             int somme = a + b;
             Console.WriteLine("la somme de a et b est" + somme);
+           
+
+            // Produit de 2 variables
+
+            int produit = a *b;
+            Console.WriteLine("le produit de a et b est" + produit);
             Console.ReadLine();
+
         }
     }
+
+
 }
